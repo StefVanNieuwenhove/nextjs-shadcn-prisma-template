@@ -2,6 +2,7 @@
   "name": "nextjs-shadcn-drizzle-template",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,10 @@
     "lint": "next lint",
     "db:push": "prisma db push",
     "db:pull": "prisma db pull",
-    "db:studio": "prisma studio",
-    "db:generate": "prisma generate",
-    "db:run": "docker compose up"
+    "db:run": "docker compose up",
+    "prisma:studio": "prisma studio",
+    "prisma:generate": "prisma generate",
+    "prisma:format": "prisma format"
   },
   "dependencies": {
     "@prisma/client": "^5.18.0",
